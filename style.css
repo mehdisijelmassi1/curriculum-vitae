@@ -1,0 +1,152 @@
+body {
+  background-color: #F7F9FC;
+}
+
+.title-mehdi h2 {
+  padding-left: 50px;
+}
+
+h1 {
+  color: #575F7D;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 'Black'
+  font-size: 32px;
+  font-weight: 900;
+  margin-top: 50px;
+}
+
+p {
+  color: #575f7d;
+  font-family: 'Lora';
+}
+
+a {
+  text-decoration: none
+}
+
+h2 {
+  color: #3700FF;
+}
+
+a:hover {
+  opacity: 0.3;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+#logo {
+  position: relative;
+  bottom: 17px;
+  left: 50px;
+  float: right;
+}
+
+.pro-content-logo {
+  display: flex;
+}
+
+.logo-companies {
+  position: relative;
+  right: 20px;
+}
+
+#logo-cubyn {
+  position: relative;
+  right: 20px;
+  bottom: -45px;
+}
+
+#logo-clovis {
+  position: relative;
+  right: 20px;
+  bottom: -45px;
+}
+
+#logo-cgi {
+  position: relative;
+  right: 20px;
+  bottom: -30px;
+}
+
+#logo-axway {
+  position: relative;
+  right: 20px;
+  bottom: -45px;
+}
+
+#logo-skema {
+  position: relative;
+  right: 20px;
+  bottom: -45px;
+}
+
+#logo-tbs {
+  position: relative;
+  right: 20px;
+  bottom: -45px;
+}
+
+#logo-wagon {
+  position: relative;
+  right: 20px;
+  bottom: -45px;
+}
+
+.card-white {
+  background-color: white;
+  padding: 1px 30px 30px 30px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.circle-image {
+  border-radius: 50%;
+}
+
+
+.btn-rose {
+  background-color: #fd7276;
+  color: white;
+  padding: 16px;
+  line-height: 50px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 30px;
+}
+
+.pro-educ {
+  display: flex;
+}
+
+@media (max-width: 960px) {
+  #container {
+    width: 500px;
+  }
+}
+@media (max-width: 720px) {
+  #container {
+    width: 400px;
+  }
+}
+@media (max-width: 540px) {
+  #container {
+    width: 300px;
+  }
+}
+
+
